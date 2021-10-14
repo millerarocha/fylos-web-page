@@ -111,6 +111,9 @@ body{
     background-color: var(--light-grayish-blue);
     padding-top: 20px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about__curve-mobile{
     position: absolute;
@@ -134,27 +137,27 @@ body{
 }
 .about__text{
     width: 84%;
-    margin: 16px auto;
     font-size: 1.3rem;
     font-weight: 500;
     line-height: 2rem;
     color: var(--desatured-blue);
+    margin-bottom: 16px;
 }
 .about__link{
-    max-width: 132px;
     display: flex;
     justify-content: space-between;
     padding: 5px 0;
     text-decoration: none;
     color: var(--moderate-cyan);
     border-bottom: 1px solid var(--moderate-cyan);
-    margin: 36px auto;
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.2rem;
+    margin: 12px 0;
 }
 .about__link-icon{
     display: inline-block;
     width: 16px;
+    margin-left: 5px;
 }
 
