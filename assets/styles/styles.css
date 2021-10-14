@@ -24,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 84%;
     margin: 0 auto;
     padding: 22px 0;
 }
@@ -35,13 +35,13 @@ body{
 .menu{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 55%;
     list-style: none;
 }
 .menu__item{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 14px;
+    line-height: 1.4rem;
     color: var(--very-dark-blue);
 }
 .menu__link{
@@ -49,3 +49,60 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
+/* Header */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    margin: 0 auto;
+}
+.header__img{
+    width: 100%;
+    margin: 82px 0 42px;
+}
+.header__title{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 28px;
+}
+.header__text{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-bottom: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form__input{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid var(--very-dark-blue);
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+.form__input::placeholder{
+    color: var(--light-gray);
+}
+.form__button{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: var(--bright-blue);
+    border: 1px solid var(--bright-blue);
+    border-radius: 4px;
+    color: var(--light-grayish-blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    margin-bottom: 16px;
+}
+
