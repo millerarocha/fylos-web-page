@@ -23,33 +23,99 @@
     <!-- Header -->
     <header class="header">
         <img src="./assets/images/illustration-1.svg" alt="people with folders" class="header__img">
-        <h1 class="header__title">All your files in one secure location, accesible anywhere.</h1>
-        <p class="header__text">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-        <form action="" class="form">
-            <input type="text" class="form__input" placeholder="Enter your email...">
-            <button class="form__button">Get Started</button>
-        </form>
+        <section class="header__info">
+            <h1 class="header__title">All your files in one secure location, accesible anywhere.</h1>
+            <p class="header__text">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+            <form action="" class="form">
+                <input type="text" class="form__input" placeholder="Enter your email...">
+                <button class="form__button">Get Started</button>
+            </form>
+        </section>
     </header>
-    <!-- About -->
+    <!-- About -->    
+    <img src="./assets/images/bg-curve-desktop.svg" alt="" class="about__curve-desktop">    
+    <img src="./assets/images/bg-curve-mobile.svg" alt="" class="about__curve-mobile">
     <section class="about">
-        <img src="./assets/images/bg-curve-mobile.svg" alt="" class="about__curve-mobile">
-        <img src="./assets/images/illustration-2.svg" alt="people with cards" class="about__img">
-        <h2 class="about__title">Stay productive, wherever you are</h2>
-        <p class="about__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your life storage needs.</p>
-        <p class="about__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-        <a href="#" class="about__link">See how Fylo works <img src="./assets/images/icon-arrow.svg" alt="arrow icon" class="about__link-icon"></a>
-        <!-- card -->
-        <article class="card">
-            <img src="./assets/images/icon-quotes.svg" alt="icon quotes" class="card__quotes">
-            <p class="card__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-            <div class="avatar">
-                <img src="./assets/images/avatar-testimonial.jpg" alt="avatar photo" class="avatar__img">
-                <div class="avatar__info">
-                    <h4 class="avatar__title">Kyle Burton</h4>
-                    <p class="avatar__text">Founder & CEO, Huddle</p>
-                </div>
-            </div>
-        </article>
+        <div class="about__container">
+            <img src="./assets/images/illustration-2.svg" alt="people with cards" class="about__img">
+            <section class="about__info">
+                <h2 class="about__title">Stay productive, wherever you are</h2>
+                <p class="about__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your life storage needs.</p>
+                <p class="about__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+                <a href="#" class="about__link">See how Fylo works <img src="./assets/images/icon-arrow.svg" alt="arrow icon" class="about__link-icon"></a>
+                <!-- card -->
+                <article class="card">
+                    <img src="./assets/images/icon-quotes.svg" alt="icon quotes" class="card__quotes">
+                    <p class="card__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                    <div class="avatar">
+                        <img src="./assets/images/avatar-testimonial.jpg" alt="avatar photo" class="avatar__img">
+                        <div class="avatar__info">
+                            <h4 class="avatar__title">Kyle Burton</h4>
+                            <p class="avatar__text">Founder & CEO, Huddle</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
     </section>
+    <!-- Contact -->
+    <section class="contact">
+        <h2 class="contact__title">Get early acess today</h2>
+        <p class="contact__text">It only takes a minute to sign up and our free starte tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+        <form action="" class="form contact__form--width">
+            <input type="text" class="form__input contact__input--border" placeholder="email@example.com">
+            <button class="form__button">Get Started For Free</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="./assets/images/white-logo.svg" alt="" class="footer__logo">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <img src="./assets/images/icon-phone.svg" alt="phone icon" class="footer__icon">
+                <a href="" class="footer__link">Phone: +1-543-123-4567</a>
+            </li>
+            <li class="footer__item">
+                <img src="./assets/images/icon-email.svg" alt="email icon" class="footer__icon">
+                <a href="" class="footer__link">example@fylo.com</a>
+            </li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Jobs</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Press</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Blog</a>
+            </li>
+        </ul>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="" class="footer__link">Contact Us</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Terms</a>
+            </li>
+            <li class="footer__item">
+                <a href="" class="footer__link">Privacy</a>
+            </li>
+        </ul>
+        <section class="footer__social">
+            <a href="" class="social__link">
+                <img src="./assets/images/facebook-f-brands.svg" alt="facebook icon" class="social__img">
+            </a>            
+            <a href="" class="social__link">
+                <img src="./assets/images/twitter-brands.svg" alt="twitter icon" class="social__img">
+            </a>            
+            <a href="" class="social__link">
+                <img src="./assets/images/instagram-brands.svg" alt="instagram icon" class="social__img">
+            </a>
+        </section>
+    </footer>
 </body>
 </html>
