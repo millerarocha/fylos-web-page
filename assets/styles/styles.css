@@ -258,7 +258,7 @@ body{
     padding: 60px 40px;
 }
 .footer__logo{
-    width: 50%;
+    width: 100px;
     margin-bottom: 30px;
 }
 .footer__list{
@@ -347,6 +347,46 @@ body{
     .card{
         width: 70%;
     }
+    .contact{
+    }
+    .contact__container{
+        width: 84%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact__info{
+        width: 40%;
+        text-align: left;
+    }
+    .contact__form--width{
+        width: 30%;
+    }
+    .contact__input--width{
+        width: 100%;
+    }        
+    .contact__button--width{
+        width: 180px;
+    }
+    .form__vertical{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 80px;
+    }
+    .footer__menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__container{
+        width: 84%;
+        margin: 0 auto;
+    }
+    .footer__social{
+        width: 14%;
+        margin: 0;
+    }
 }
 @media (min-width:1023px){
     .about__container{
@@ -361,5 +401,4 @@ body{
     .about__info{
         width: 45%;
     }
-
 }
