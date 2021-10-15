@@ -19,7 +19,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     /*font-family: 'Raleway', sans-serif;*/
 }
-
 /* Navbar */
 .navbar{
     display: flex;
@@ -55,8 +54,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 84%;
     margin: 82px auto;
+}
+.header__container{
+    width: 84%;
 }
 .header__img{
     width: 100%;
@@ -310,8 +311,7 @@ body{
 
 @media (min-width:767px){
     .navbar{
-        height: 40px;
-        padding: 60px;
+        padding: 30px;
     }
     .navbar__logo{
         width: 150px;
@@ -319,7 +319,8 @@ body{
     .menu{
         width: 30%;
     }
-    .header{
+    .header__container{
+        display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
     }
@@ -333,6 +334,7 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        margin: 0;
     }
     .form__button, .form__input{
         width: 47%;
@@ -348,6 +350,7 @@ body{
         width: 70%;
     }
     .contact{
+        padding: 50px 0;
     }
     .contact__container{
         width: 84%;
@@ -362,6 +365,7 @@ body{
     }
     .contact__form--width{
         width: 30%;
+        min-width: 200px;
     }
     .contact__input--width{
         width: 100%;
@@ -375,6 +379,9 @@ body{
         align-items: flex-start;
         height: 80px;
     }
+    .footer{
+        padding: 60px 0;
+    }
     .footer__menu{
         display: flex;
         justify-content: space-between;
@@ -387,8 +394,6 @@ body{
         width: 14%;
         margin: 0;
     }
-}
-@media (min-width:1023px){
     .about__container{
         width: 84%;
         margin: 0 auto;
@@ -396,9 +401,10 @@ body{
         justify-content: space-between;
     }
     .about__img{
-        width: 45%;
+        width: 30%;
+        margin:0;
     }
     .about__info{
-        width: 45%;
+        width: 65%;
     }
 }
